@@ -1,0 +1,27 @@
+{
+  "name": "browser-object-map",
+  "homepage": "https://github.com/juliomatcom/browser-object-map",
+  "authors": [
+    "juliomatcom <julio@julces.com>"
+  ],
+  "description": "Cross browser object map function (ES5 compatible)",
+  "main": "index.js",
+  "keywords": [
+    "object",
+    "map",
+    "function",
+    "iterable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0"
+  }
+}
