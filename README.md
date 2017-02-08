@@ -15,7 +15,7 @@ I wanted a browser friendly solution, ES5 compatible, immutable, and with an API
 objectMap({ a: 1, b: [2, 3]}, function (value, key, object) {
    return value + 1;
 }, { deep: true });
-// { a: 1, b: [3, 4] }
+// { a: 2, b: [3, 4] }
 ```
 
 ## API
