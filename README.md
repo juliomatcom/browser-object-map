@@ -1,5 +1,7 @@
 # browser-map-object
-Cross browser object map function (ES5 compatible)
+Cross browser object map function (ES5 compatible)  
+
+[![Bower](https://img.shields.io/bower/l/bootstrap.svg)](https://github.com/juliomatcom/browser-object-map#install)
 
 #### Why ?
 I wanted a browser friendly solution, ES5 compatible, immutable, and with an API closer enough to `Array.prototype.map`.
