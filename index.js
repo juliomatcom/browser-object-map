@@ -29,7 +29,7 @@
   }
 
   function notEmpty(obj) {
-    return obj && Object.keys(obj).length;
+    return obj && typeof obj === 'object' && Object.keys(obj).length;
   }
 
 })(window);
