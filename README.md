@@ -1,7 +1,7 @@
 # browser-map-object
 Cross browser object map function (ES5 compatible)  
 
-[![Bower](https://img.shields.io/bower/l/bootstrap.svg)](https://github.com/juliomatcom/browser-object-map#install)
+![Bower](https://img.shields.io/bower/l/bootstrap.svg)
 
 #### Why ?
 I wanted a browser friendly solution, ES5 compatible, immutable, and with an API closer enough to `Array.prototype.map`.
@@ -12,7 +12,7 @@ I wanted a browser friendly solution, ES5 compatible, immutable, and with an API
 - Via HTML  
 `<script src="https://raw.githubusercontent.com/juliomatcom/browser-map-object/master/index.js"></script>`
 
-## Usage
+### Usage
 ```javascript
 objectMap({ a: 1, b: [2, 3]}, function (value, key, object) {
    return value + 1;
@@ -20,7 +20,7 @@ objectMap({ a: 1, b: [2, 3]}, function (value, key, object) {
 // { a: 2, b: [3, 4] }
 ```
 
-## API
+### API
 ```javascript
 objectMap(source, callback, [options]);
 ```
@@ -41,3 +41,10 @@ objectMap(source, callback, [options]);
   - `deep`  
   Type *Boolean*  
   Recurse nested objects and arrays.
+  
+  ### Browser compatibility
+  - **Feature**:	Basic support
+  - **Chrome**: 5
+  - **Firefox (Gecko)**: 4.0 (2.0)
+  - **Internet Explorer**: 9
+  - **Opera Safari**: 12
