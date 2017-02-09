@@ -23,8 +23,10 @@ describe('objectMap', function() {
       b: [1, 2, 3],
       c: null,
       d: {
-        a: 4
-      }
+        a: '4'
+      },
+      e: false,
+      f: undefined
     };
     var opts = { deep: 1 };
     var actual = global.objectMap(obj, function (value, key, obj) {
@@ -36,7 +38,9 @@ describe('objectMap', function() {
       c: 'null',
       d: {
         a: '4'
-      }
+      },
+      e: 'false',
+      f: 'undefined'
     };
 
     chai.assert.deepEqual(actual, expected);
