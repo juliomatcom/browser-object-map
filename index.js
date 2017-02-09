@@ -1,6 +1,7 @@
 (function (global) {
   /**
-   * The objectMap(source, callback) method creates a new Object with the results of calling a provided callback on every element in the source.
+   * The objectMap(source, callback) method creates a new Object with the
+   * results of calling a provided callback on every element in the source.
    * https://github.com/juliomatcom/browser-object-map
    * @param  {object}   obj     Source object to iterate
    * @param  {function} fn      Callback function
