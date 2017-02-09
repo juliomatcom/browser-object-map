@@ -47,4 +47,5 @@ objectMap(source, callback, [options]);
 - **Chrome**: 5
 - **Firefox (Gecko)**: 4.0 (2.0)
 - **Internet Explorer**: 9
-- **Opera Safari**: 12
+- **Opera**: 12
+- **Safari**: 5
