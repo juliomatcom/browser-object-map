@@ -1,4 +1,4 @@
-# browser-map-object
+# browser-object-map
 Cross browser object map function (ES5 compatible)  
 
 [![Bower](https://camo.githubusercontent.com/06c5d22b7908c0c4928071ac314e75c3da29d750/687474703a2f2f62656e7363687761727a2e6769746875622e696f2f626f7765722d6261646765732f62616467654032782e706e67)](https://github.com/juliomatcom/browser-object-map#install)
@@ -8,9 +8,9 @@ I wanted a browser friendly solution, ES5 compatible, immutable, and with an API
 
 ## Install
 - Via **Bower**   
-`$ bower install browser-map-object --save`     
+`$ bower install browser-object-map --save`     
 - Via **HTML**  
-`<script src="https://raw.githubusercontent.com/juliomatcom/browser-map-object/master/index.js"></script>`
+`<script src="https://raw.githubusercontent.com/juliomatcom/browser-object-map/master/index.js"></script>`
 
 ### Usage
 ```javascript
