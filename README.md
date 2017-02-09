@@ -42,9 +42,9 @@ objectMap(source, callback, [options]);
   Type *Boolean*  
   Recurse nested objects and arrays.
   
-  ### Browser compatibility
-  - **Feature**:	Basic support
-  - **Chrome**: 5
-  - **Firefox (Gecko)**: 4.0 (2.0)
-  - **Internet Explorer**: 9
-  - **Opera Safari**: 12
+### Browser compatibility
+- **Feature**:	Basic support
+- **Chrome**: 5
+- **Firefox (Gecko)**: 4.0 (2.0)
+- **Internet Explorer**: 9
+- **Opera Safari**: 12
