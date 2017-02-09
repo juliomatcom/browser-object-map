@@ -1,7 +1,7 @@
 (function (global) {
   /**
    * objectMap
-   * @param  {object}   obj     Object to iterate
+   * @param  {object}   obj     Source object to iterate
    * @param  {function} fn      Callback function
    * @param  {object}   options Available options
    * @return {object}           New object mapped
