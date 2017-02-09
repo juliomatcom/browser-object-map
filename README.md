@@ -20,6 +20,8 @@ objectMap({ a: 1, b: [2, 3]}, function (value, key, object) {
 // { a: 2, b: [3, 4] }
 ```
 
+Note: It **does not** return always an `array`, if argument is `object`, it will return an `object`
+
 ### API
 ```javascript
 objectMap(source, callback, [options]);
