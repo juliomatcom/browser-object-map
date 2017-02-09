@@ -1,7 +1,5 @@
-# browser-object-map
+# browser-object-map [![Bower-MIT](https://raw.githubusercontent.com/juliomatcom/open-source-badges/master/badges/bower-mit.png)](https://github.com/juliomatcom/open-source-badges)
 Cross browser object map function (ES5 compatible)  
-
-[![Bower](https://camo.githubusercontent.com/06c5d22b7908c0c4928071ac314e75c3da29d750/687474703a2f2f62656e7363687761727a2e6769746875622e696f2f626f7765722d6261646765732f62616467654032782e706e67)](https://github.com/juliomatcom/browser-object-map#install)
 
 #### Why ?
 I wanted a browser friendly solution, ES5 compatible, immutable, and with an API closer enough to `Array.prototype.map`.
